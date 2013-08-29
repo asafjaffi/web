@@ -1,0 +1,18 @@
+= Jetty-Guice-Jersey-Gson project template
+
+This repo contains a working template for java executables, which serve self-contained 
+web apps.
+
+The server is embedded, and so are the different assets.
+
+== How to run
+
+1. compile a jar.
+
+	mvn clean install
+
+2. run the jar and get the server up
+
+	java -jar target/web-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+	
+3. get served at `localhost:8080/` and at `localhost:8080/example`.
